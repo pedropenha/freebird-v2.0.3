@@ -16,6 +16,8 @@ public class HandleEffect : MonoBehaviour
     public GameObject soundDestroy;
     private flight birds;
 
+    public static Action BirdCall;
+
     void Start()
     {
         birds = player.GetComponent<flight>();
@@ -32,6 +34,7 @@ public class HandleEffect : MonoBehaviour
             radio.GetComponent<AudioSource>().volume += (0.05F * birds.qtdBirds);
             nature.GetComponent<AudioSource>().volume += (0.1f * birds.qtdBirds);
             trigger.SetActive(false);
+            BirdCall?.Invoke();
         }
     }
 }
