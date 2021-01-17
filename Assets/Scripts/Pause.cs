@@ -11,9 +11,9 @@ public class Pause : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) && canvasMenu.GetComponent<StartScript>().ChecaInicio() == true)
         {
-            if (Time.timeScale == 1 && canvasMenu.GetComponent<StartScript>().ChecaInicio() == true)
+            if (Time.timeScale == 1)
             {
                 Time.timeScale = 0;
                 canvasPause.SetActive(true);
