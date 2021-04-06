@@ -36,7 +36,7 @@ public class flight : MonoBehaviour
         rotation *= Time.deltaTime;
         sobe *= Time.deltaTime;
 
-        if(boost > 0 && CircleStamina.instance.getStamina() > 0.01f)
+        if(boost > 0)
         {
             songBoost.GetComponent<AudioSource>().volume = 1.0F;
             transform.Translate(0, 0, translation + boost);
