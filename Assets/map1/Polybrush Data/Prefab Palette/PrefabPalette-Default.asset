@@ -80,3 +80,137 @@ MonoBehaviour:
       m_YScaleBool: 0
       m_ZScaleBool: 0
     name: Coconut_tree
+  - gameObject: {fileID: 8547562741469068411, guid: 1cc366ffed1f2924690139d67a88b254,
+      type: 3}
+    settings:
+      m_Strength: 50
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 0, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 2, y: 2}
+      m_UniformBool: 1
+      m_XRotationBool: 0
+      m_YRotationBool: 0
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: Rock3
+  - gameObject: {fileID: 6463103279978565845, guid: 87b04a6b131597e4db952f9810390439,
+      type: 3}
+    settings:
+      m_Strength: 50
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 0, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 3, y: 3}
+      m_UniformBool: 1
+      m_XRotationBool: 0
+      m_YRotationBool: 0
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: PlantEx3
+  - gameObject: {fileID: 175696, guid: 685de8e0baeb4f145bc3cbaf7851f218, type: 3}
+    settings:
+      m_Strength: 50
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 0, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 4, y: 4}
+      m_UniformBool: 1
+      m_XRotationBool: 0
+      m_YRotationBool: 0
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: Bush_C
+  - gameObject: {fileID: 110538, guid: 25b7310f6077068478cd7e4defadc440, type: 3}
+    settings:
+      m_Strength: 50
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 0, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 3, y: 3}
+      m_UniformBool: 1
+      m_XRotationBool: 0
+      m_YRotationBool: 0
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: Cactus_A
+  - gameObject: {fileID: 2594766243793620232, guid: 4d1f930728eb81f499eefd1f6d4db221,
+      type: 3}
+    settings:
+      m_Strength: 50
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 0, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 2, y: 2}
+      m_UniformBool: 1
+      m_XRotationBool: 0
+      m_YRotationBool: 0
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: Flower1
+  - gameObject: {fileID: 2464754855653894261, guid: d7375139d18121f4daae96053a84e4c9,
+      type: 3}
+    settings:
+      m_Strength: 50
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 0, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 2, y: 2}
+      m_UniformBool: 1
+      m_XRotationBool: 0
+      m_YRotationBool: 0
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: Flower2
+  - gameObject: {fileID: 2831074819202018473, guid: 221bd8eee906efe489a9f1c8aad0ec09,
+      type: 3}
+    settings:
+      m_Strength: 50
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 0, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 2, y: 2}
+      m_UniformBool: 1
+      m_XRotationBool: 0
+      m_YRotationBool: 0
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: Flower3
+  - gameObject: {fileID: 5788968203525986472, guid: f8ccaa39b2ab7414796d8eaab4b7bb81,
+      type: 3}
+    settings:
+      m_Strength: 50
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 0, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 3, y: 3}
+      m_UniformBool: 1
+      m_XRotationBool: 0
+      m_YRotationBool: 0
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: FallenBranch
