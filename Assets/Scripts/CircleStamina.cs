@@ -39,9 +39,15 @@ public class CircleStamina : MonoBehaviour
             Debug.Log("Acabou a stamina");
         }
     }
-
+    
     public float getStamina(){
         return currentStamina;
+    }
+    
+    public void OasisStamina()
+    {
+        currentStamina += 0.2f;
+        //ProgressBar.fillAmount = currentStamina;
     }
 
     private IEnumerator RegenStamina(){
