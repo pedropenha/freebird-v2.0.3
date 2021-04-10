@@ -11,10 +11,13 @@ public class flight : MonoBehaviour
     public float rotationSpeed;
     public float speedUp;
     public float speedBoost;
-
     public GameObject songBoost;
-    public int qtdBirds = 0;
-    public GameObject resetar;
+    public static flight instance;
+
+    void Awake()
+    {
+        instance = this;
+    }
 
     // Update is called once per frame
     void FixedUpdate()
@@ -26,22 +29,20 @@ public class flight : MonoBehaviour
         boost *= Time.deltaTime;
 
         if(boost > 0 && CircleStamina.instance.getStamina() > 0.01f)
-        //if(boost > 0)
         {
+            this.Boost(boost);
             songBoost.GetComponent<AudioSource>().volume = 1.0F;
-            transform.position += transform.forward * Time.deltaTime * speed * boost;
             CircleStamina.instance.UseStamina(0.01f);
-            // CircleStamina.instance.OasisStamina();
         }
         else
         {
             songBoost.GetComponent<AudioSource>().volume = 0.0F;
             transform.position += transform.forward * Time.deltaTime * speed;
         }
+    }
 
-        if(qtdBirds == 4)
-        {
-            resetar.SetActive(true); 
-        }
+    public void Boost(float boost)
+    {
+        transform.position += transform.forward * Time.deltaTime * speed * boost;
     }
 }

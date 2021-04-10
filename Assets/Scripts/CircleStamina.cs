@@ -24,7 +24,6 @@ public class CircleStamina : MonoBehaviour
         ProgressBar.fillAmount = maxStamina;
     }
 
-
     public void UseStamina(float amount){
         if(currentStamina - amount >= 0){
             currentStamina -= amount;
@@ -35,8 +34,6 @@ public class CircleStamina : MonoBehaviour
             }
 
             regen = StartCoroutine(RegenStamina());
-        }else{
-            Debug.Log("Acabou a stamina");
         }
     }
     
@@ -47,7 +44,7 @@ public class CircleStamina : MonoBehaviour
     public void OasisStamina()
     {
         currentStamina += 0.2f;
-        //ProgressBar.fillAmount = currentStamina;
+        ProgressBar.fillAmount = currentStamina;
     }
 
     private IEnumerator RegenStamina(){
