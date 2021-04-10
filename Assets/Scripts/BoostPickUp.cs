@@ -6,6 +6,7 @@ public class BoostPickUp : MonoBehaviour
 {
     [SerializeField] private GameObject trigger;
     [SerializeField] private Transform player;
+    public GameObject soundDestroy;
 
     void Update()
     {
@@ -18,6 +19,7 @@ public class BoostPickUp : MonoBehaviour
         if (other.tag == "Player")
         {
             CircleStamina.instance.OasisStamina();
+            soundDestroy.GetComponent<AudioSource>().Play();
             Destroy(trigger);
         }
     }

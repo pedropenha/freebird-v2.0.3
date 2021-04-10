@@ -292,13 +292,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 69856679}
-  m_LocalRotation: {x: 0.5455455, y: 0.026136357, z: 0.3403077, w: 0.7654331}
-  m_LocalPosition: {x: -144, y: 731, z: 1128}
+  m_LocalRotation: {x: 0.6221722, y: -0.20315625, z: 0.16226839, w: 0.73844326}
+  m_LocalPosition: {x: -46, y: 725, z: 1154}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 54.822002, y: 45.557003, z: 72.51}
+  m_LocalEulerAnglesHint: {x: 80.00101, y: -34.408, z: -4.341}
 --- !u!1 &84816361
 GameObject:
   m_ObjectHideFlags: 0
@@ -9304,6 +9304,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1125293174}
+    - target: {fileID: 437848247542826558, guid: 5703643dfe0584192bcf08867b22a29f,
+        type: 3}
+      propertyPath: soundDestroy
+      value: 
+      objectReference: {fileID: 1678674921}
     - target: {fileID: 3078048109930219380, guid: 5703643dfe0584192bcf08867b22a29f,
         type: 3}
       propertyPath: m_Radius
@@ -9322,7 +9327,7 @@ PrefabInstance:
     - target: {fileID: 9032132302015453718, guid: 5703643dfe0584192bcf08867b22a29f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 200.5
+      value: 204
       objectReference: {fileID: 0}
     - target: {fileID: 9032132302015453718, guid: 5703643dfe0584192bcf08867b22a29f,
         type: 3}
@@ -9332,7 +9337,7 @@ PrefabInstance:
     - target: {fileID: 9032132302015453718, guid: 5703643dfe0584192bcf08867b22a29f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1088
+      value: 1090.5
       objectReference: {fileID: 0}
     - target: {fileID: 9032132302015453718, guid: 5703643dfe0584192bcf08867b22a29f,
         type: 3}
@@ -9373,6 +9378,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9032132302015453718, guid: 5703643dfe0584192bcf08867b22a29f,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9032132302015453718, guid: 5703643dfe0584192bcf08867b22a29f,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5703643dfe0584192bcf08867b22a29f, type: 3}
