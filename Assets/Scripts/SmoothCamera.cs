@@ -9,7 +9,7 @@ public class SmoothCamera : MonoBehaviour
 
     void Update()
     {
-        transform.position = Vector3.Lerp (transform.position, target.position, Time.deltaTime * smoothTime);
+        transform.position = Vector3.Slerp (transform.position, target.position, Time.deltaTime * smoothTime);
         Vector3 direction = (bird.position - transform.position).normalized;
         transform.forward = direction;
     }

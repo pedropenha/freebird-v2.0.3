@@ -12,6 +12,7 @@ public class flight : MonoBehaviour
     public float speedUp;
     public float speedBoost;
     public GameObject songBoost;
+    public GameObject text;
     public static flight instance;
 
     void Awake()
@@ -38,6 +39,12 @@ public class flight : MonoBehaviour
         {
             songBoost.GetComponent<AudioSource>().volume = 0.0F;
             transform.position += transform.forward * Time.deltaTime * speed;
+        }
+
+        if(GroupHandler.objective == GroupHandler.qtdBirds){
+            text.SetActive(true);
+        }else{
+            text.SetActive(false);
         }
     }
 

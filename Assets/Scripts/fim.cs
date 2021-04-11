@@ -5,27 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class fim : MonoBehaviour
 {
-    public GameObject camera;
-    public GameObject target;
-    public GameObject bird;
-    public GameObject canvasMensagem;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Player")
+        if (other.tag == "Player" && GroupHandler.objective == GroupHandler.qtdBirds)
         {
-            SceneManager.LoadScene("sceneFim");
+            if(SceneManager.GetActiveScene().name == "map1"){
+                SceneManager.LoadScene("map2");
+            }else{
+                SceneManager.LoadScene("creditosNew");
+            }
         }
      }
 }
